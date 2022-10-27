@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 :root {
     --vermelho: #e50914;
     --preto: #141414;
@@ -44,7 +46,7 @@ header nav a:hover {
 /*filme principal*/
 .filme-principal{
     font-size:16px;
-    background-image: url('C:/workspace/Dramaflix/imagens/capa.jpg');
+    background-image: url('../imagens/capa.jpg');
 
     height: 800px;
     background-size: cover;
@@ -64,7 +66,7 @@ header nav a:hover {
 .titulo{
     margin-top: 30%;
     font-size: 50px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .botao{
