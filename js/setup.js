@@ -1,4 +1,6 @@
 $('.owl-carousel').owlCarousel({
+    interval: 3000,
+    cycle: true,
     loop:true,
     margin:8,
     nav:true,
