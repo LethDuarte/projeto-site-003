@@ -74,7 +74,15 @@ main{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.botoes{
+    display: flex;
+}
+
 .botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     width: 300px;
     height: 80px;
     background-color: rgba(0,0,0,.50);
@@ -92,7 +100,7 @@ main{
     color:black;
 }
 
-.botao i{
+.botao span{
     margin-right: 8px;
 }
 

@@ -6,6 +6,10 @@
         flex-direction: column;
     }
 
+    .botoes{
+        display: block;
+    }
+
     .botao {
         margin-top: 5px;
         width: 200px;
@@ -13,6 +17,10 @@
     }
     .filme-principal{
         background-position: center;
+    }
+
+    div.owl-dots{
+        display: none;
     }
 }
 
